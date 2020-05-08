@@ -14,10 +14,11 @@ function nowServing(line){
 }
 
 function currentLine (line){
+  var cue = ""
   if (line.length > 0){
   let i = 0
   for i > line.length {
-    
+
 }
 }
 else{
