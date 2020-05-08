@@ -17,8 +17,8 @@ function currentLine (line){
   var cue = ""
   if (line.length > 0){
   let i = 0
-  for i > line.length {
-    cue = cue + line[i] 
+  for i < line.length {
+    cue = cue + line[i]
 }
   return `The line is currently ${cue}`
 }
