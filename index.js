@@ -18,7 +18,7 @@ function currentLine (line){
   if (line.length > 0){
   let i = 0
   for i > line.length {
-    cue = cue + line[i]
+    cue = cue + line[i] + ","
 
 }
 }
