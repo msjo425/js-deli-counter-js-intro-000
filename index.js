@@ -18,7 +18,7 @@ function currentLine (line){
   let i = 0
   if (line.length > 0){
   for (i =0; i < line.length; i++) {
-    cue = `${cue}${i+1}. ${line[i]}`
+    cue = `${cue} ${i+1}. ${line[i]}`
 }
   return `The line is currently: ${cue}`
 }
