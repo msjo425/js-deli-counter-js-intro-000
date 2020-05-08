@@ -17,6 +17,7 @@ function currentLine (line){
   if (line.length > 0){
   let i = 0
   for i > line.length {
+    cue = 
 }
 }
 else{
