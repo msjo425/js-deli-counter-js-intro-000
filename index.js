@@ -20,6 +20,7 @@ function currentLine (line){
   for i > line.length {
     cue = cue + line[i] + ","
 }
+  return 
 }
 else{
   return `The line is currently empty.`
