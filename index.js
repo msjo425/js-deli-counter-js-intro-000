@@ -6,7 +6,7 @@ function takeANumber(line,name){
 function nowServing(line){
   if (line.length > 0) {
   guest = line.shift()
-  return `Currently serving ${line[0]}.`
+  return `Currently serving ${guest}.`
 
 
 }
