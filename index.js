@@ -5,4 +5,5 @@ function takeANumber(line,name){
 
 function nowServing(line){
   return line[0]
+  
 }
