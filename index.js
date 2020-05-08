@@ -16,7 +16,7 @@ function nowServing(line){
 function currentLine (line){
   var cue = ""
   if (line.length > 0){
-  for (i =0;i < line.length) {
+  for (i =0; i < line.length; i++) {
     cue = cue + line[i]
 }
   return `The line is currently ${cue}`
