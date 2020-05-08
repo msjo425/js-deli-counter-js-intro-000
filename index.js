@@ -20,7 +20,7 @@ function currentLine (line){
   for (i =0; i < line.length; i++) {
     cue = `${cue} ${i+1}. ${line[i]}${(i+1)<line.length ? "," :""}`
 }
-  return `The line is currently:${cue}`
+  return `The line is currently: ${cue}`
 }
 else{
   return `The line is currently empty.`
