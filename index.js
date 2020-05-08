@@ -14,6 +14,7 @@ function nowServing(line){
 }
 
 function currentLine (line){
+  let i = 0 
   for 
 
 }
